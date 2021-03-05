@@ -35,7 +35,8 @@ Make sure you have node 12+ and npm installed.
 
 Note: 
 Run and tested on windos 10 os (Node version :v12.18.4 )
-Pre-commit hook is used to make sure non linted code is not allowed to commit.
+ESLINT is installed and configured.
+Pre-commit hook is used in this project to make sure non linted code is not allowed to commit.
 run : `npm run lint` command to make code is in proper format.
 
 
