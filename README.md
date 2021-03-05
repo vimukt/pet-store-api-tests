@@ -21,18 +21,28 @@ Method : DELETE
 Method : GET
 ​/store​/inventory
 
+Here is checklist of assertion/validation performed in the tests:
+  1. Verify basic performance sanity/Response time SLA (is 5 sec.)  
+  2. Verify correct HTTP status code
+  3. Verify response payload
+  4. Verify response headers
+  5. Validate the schema
+  6. Happy Path
+  7. Negative 
  
 Dependencies:
 Make sure you have node 12+ and npm installed.
 
 Note: 
 Run and tested on windos 10 os (Node version :v12.18.4 )
+Pre-commit hook is used to make sure non linted code is not allowed to commit.
+run : `npm run lint` command to make code is in proper format.
 
 
 Running Tests:
  1. Checkout the code from repo.
 
- 2. Navigate to project directory.
+ 2. Navigate to project directory : <HOME/CLONEPATH>/<pet-store-api-tests> . 
 
  3. run on command line/bash  : `npm install`
 
