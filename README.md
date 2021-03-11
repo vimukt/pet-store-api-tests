@@ -31,7 +31,9 @@ Here is checklist of assertion/validation performed in the tests:
   7. Negative 
  
 Dependencies:
+
 Make sure you have node 12+ and npm installed.
+JDK8+ installed.
 
 Note: 
 Run and tested on windos 10 os (Node version :v12.18.4 )
